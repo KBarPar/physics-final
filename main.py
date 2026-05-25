@@ -78,6 +78,7 @@ async def main():
     SCREEN_HEIGHT = 800
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     #100 pixels (2 background square lengths) = 1 meter
+    pygame.display.set_caption("physics")
 
     global BGWHITE
     global BGGREY
